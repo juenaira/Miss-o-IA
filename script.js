@@ -9,12 +9,12 @@ const perguntas = [
         enunciado: "Você entra em uma livraria antiga e misteriosa. Ao tocar em um livro empoeirado, a capa se ilumina e uma voz sussurra: Escolha seu caminho, e ele revelará quem você é. Qual prateleira te atrai imediatamente?",
         alternativas: [
             {
-                texto: "A prateleira com capas futuristas, naves espaciais e robôs, onde as histórias prometem mundos com tecnologias que desafiam a imaginação.",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Aquela com os títulos clássicos sobre amores proibidos e destinos entrelaçados.",
+                afirmacao_romance: "Você é uma alma que busca conexão e emoção."
             },
             {
-                texto: "A prateleira onde as capas mostram dragões, castelos medievais e seres mágicos, indicando contos de aventuras épicas e feitiçaria.",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "A prateleira isolada, com livros de capas escuras e títulos intrigantes que prometem segredos e reviravoltas.",
+                afirmacao_suspense: "Você é um aventureiro da mente, que adora desvendar mistérios."
             }
         ]
     },
@@ -22,12 +22,12 @@ const perguntas = [
         enunciado: "Você encontra um manuscrito sem título, com páginas amareladas e uma escrita elegante. Ao ler as primeiras linhas, percebe que a história pode seguir dois rumos principais. Qual enredo você esperaria encontrar ao continuar a leitura?",
         alternativas: [
             {
-                texto: "Uma trama cheia de enigmas, segredos e uma investigação complexa para desvendar um crime ou uma conspiração, onde cada pista é crucial.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Uma história de paixão avassaladora e superação de obstáculos em busca do amor verdadeiro.",
+                afirmacao_romance: "Você valoriza a profundidade emocional."
             },
             {
-                texto: "Uma narrativa focada nas relações entre personagens, explorando amores proibidos, sacrifícios pessoais e a complexidade das emoções humanas.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Uma trama cheia de enigmas, desaparecimentos misteriosos e um detetive tentando desvendar a verdade.",
+                afirmacao_suspense: "A adrenalina da incerteza te atrai."
             }
         ]
     },
@@ -35,12 +35,12 @@ const perguntas = [
         enunciado: "Uma máquina do tempo surge à sua frente, oferecendo uma viagem instantânea para qualquer período da história ou para um momento de puro lazer. Para qual destino você viajaria sem hesitar?",
         alternativas: [
             {
-                texto: "Para uma época marcante do passado, como a Roma Antiga, a Revolução Francesa ou o Velho Oeste, para vivenciar os costumes e os grandes eventos.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Um baile de máscaras em Veneza do século XVIII, onde o amor pode florescer em meio ao mistério.",
+                afirmacao_romance: "Você aprecia a beleza dos laços humanos."
             },
             {
-                texto: "Para um lugar onde você possa apenas relaxar e se divertir, talvez um parque de diversões excêntrico ou um festival cheio de situações hilárias e inesperadas.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Uma noite chuvosa em Londres vitoriana, acompanhando um detetive em busca de pistas cruciais.",
+                afirmacao_suspense: "Você gosta de questionar e investigar."
             }
         ]
     },
@@ -48,12 +48,12 @@ const perguntas = [
         enunciado: "Um convite misterioso chega pelo correio, convidando você para um evento secreto onde as histórias ganham vida. Ao chegar, você percebe que precisará escolher um gênero para participar. Qual seria o ambiente ideal para você se perder completamente?",
         alternativas: [
             {
-                texto: "Um ambiente totalmente novo, com leis da física diferentes, onde a criação de mundos é infinita e a imaginação dita as regras de seres e paisagens.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Um jardim secreto, onde encontros inesperados e declarações apaixonadas acontecem sob a luz do luar.",
+                afirmacao_romance: "Sua jornada literária provavelmente é repleta de momentos tocantes e inspiradores!"
             },
             {
-                texto: "Um ambiente que reflete a vida como ela é, com personagens realistas enfrentando dilemas cotidianos, mostrando a profundidade da alma humana em suas alegrias e tristezas.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Um casarão abandonado, com sussurros no ar e sombras dançando, sugerindo segredos a serem desvendados.",
+                afirmacao_suspense: "Sua leitura é uma jornada eletrizante, cheia de reviravoltas e descobertas surpreendentes!"
             }
         ]
     },
@@ -61,16 +61,17 @@ const perguntas = [
         enunciado: "Você está prestes a embarcar em uma jornada, e duas rotas se apresentam, cada uma prometendo um tipo diferente de experiência. Qual tipo de jornada te empolgaria mais?",
         alternativas: [
             {
-                texto: "Uma jornada cheia de desafios físicos, perigos iminentes e a constante necessidade de superar obstáculos e escapar de situações de risco.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Uma viagem através de paisagens deslumbrantes, com a chance de encontrar uma alma gêmea e viver um grande amor.",
+                afirmacao_romance: "Você se emociona com histórias de amor que superam o tempo e o espaço."
             },
             {
-                texto: "Uma jornada que te faria refletir profundamente sobre a existência, o sentido da vida e as grandes questões da humanidade, mesmo que não haja ação constante. ",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Uma exploração de um lugar desconhecido e perigoso, cheio de armadilhas e mistérios a serem desvendados.",
+                afirmacao_suspense: "Você se sente atraído por tramas complexas e resoluções impactantes."
             }
         ]
     },
 ];
+
 
 
 let atual = 0;
