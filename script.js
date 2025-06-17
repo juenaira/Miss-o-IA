@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Aquela com os títulos clássicos sobre amores proibidos e destinos entrelaçados.",
-                afirmacao_romance: "Você é uma alma que busca conexão e emoção."
+                afirmacao: "Você é uma alma que busca conexão e emoção."
             },
             {
                 texto: "A prateleira isolada, com livros de capas escuras e títulos intrigantes que prometem segredos e reviravoltas.",
-                afirmacao_suspense: "Você é um aventureiro da mente, que adora desvendar mistérios."
+                afirmacao: "Você é um aventureiro da mente, que adora desvendar mistérios."
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Uma história de paixão avassaladora e superação de obstáculos em busca do amor verdadeiro.",
-                afirmacao_romance: "Você valoriza a profundidade emocional."
+                afirmacao: "Você valoriza a profundidade emocional."
             },
             {
                 texto: "Uma trama cheia de enigmas, desaparecimentos misteriosos e um detetive tentando desvendar a verdade.",
-                afirmacao_suspense: "A adrenalina da incerteza te atrai."
+                afirmacao: "A adrenalina da incerteza te atrai."
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Um baile de máscaras em Veneza do século XVIII, onde o amor pode florescer em meio ao mistério.",
-                afirmacao_romance: "Você aprecia a beleza dos laços humanos."
+                afirmacao: "Você aprecia a beleza dos laços humanos."
             },
             {
                 texto: "Uma noite chuvosa em Londres vitoriana, acompanhando um detetive em busca de pistas cruciais.",
-                afirmacao_suspense: "Você gosta de questionar e investigar."
+                afirmacao: "Você gosta de questionar e investigar."
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Um jardim secreto, onde encontros inesperados e declarações apaixonadas acontecem sob a luz do luar.",
-                afirmacao_romance: "Sua jornada literária provavelmente é repleta de momentos tocantes e inspiradores!"
+                afirmacao: "Sua jornada literária provavelmente é repleta de momentos tocantes e inspiradores!"
             },
             {
                 texto: "Um casarão abandonado, com sussurros no ar e sombras dançando, sugerindo segredos a serem desvendados.",
-                afirmacao_suspense: "Sua leitura é uma jornada eletrizante, cheia de reviravoltas e descobertas surpreendentes!"
+                afirmacao: "Sua leitura é uma jornada eletrizante, cheia de reviravoltas e descobertas surpreendentes!"
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Uma viagem através de paisagens deslumbrantes, com a chance de encontrar uma alma gêmea e viver um grande amor.",
-                afirmacao_romance: "Você se emociona com histórias de amor que superam o tempo e o espaço."
+                afirmacao: "Você se emociona com histórias de amor que superam o tempo e o espaço."
             },
             {
                 texto: "Uma exploração de um lugar desconhecido e perigoso, cheio de armadilhas e mistérios a serem desvendados.",
-                afirmacao_suspense: "Você se sente atraído por tramas complexas e resoluções impactantes."
+                afirmacao: "Você se sente atraído por tramas complexas e resoluções impactantes."
             }
         ]
     },
